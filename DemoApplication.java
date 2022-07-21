@@ -1,8 +1,14 @@
-public class Main{
+package com.example.demo;
 
-Public static void main(string[] args) {
-// write your code here
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-system.out.println("helloe world");
+@SpringBootApplication
+public class DemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
+
 }
-}
+
