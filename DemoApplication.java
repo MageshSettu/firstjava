@@ -1,13 +1,8 @@
-package com.example.demo;
+public class Main{
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+Public static void main(string[] args) {
+// write your code here
 
-@SpringBootApplication
-public class DemoApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
-	}
-
+system.out.println("helloe world");
+}
 }
